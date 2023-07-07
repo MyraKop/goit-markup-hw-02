@@ -9,7 +9,9 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto",sans-serif;
+    color: var(--slate);
+    background-color: var(--white); 
 }
 
 .visually-hidden {
@@ -38,9 +40,9 @@ list-style-type: none;
 .header-logo{
 color: var(--navyblue);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    line-height: 1.16
+    line-height: 1.17
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
