@@ -33,26 +33,26 @@ list-style-type:none;
 }
 
 .header-logo {
-        font-family:Raleway;
-        font-size:18px;
-        font-style:normal;
-        font-weight:800;
-        line-height:1.17;
-        letter-spacing:0.03em;
-        color:var(--iris, #4D5AE5);
-        text-transform:uppercase;
+font-family:Raleway;
+font-size:18px;
+font-style:normal;
+font-weight:800;
+line-height:1.17;
+letter-spacing:0.03em;
+color:var(--iris, #4D5AE5);
+text-transform:uppercase;
         
 }
 
 .header-logo-accent {
-    color: var(--navyblue, #2E2F42);
-        font-family:Raleway;
-        font-size:18px;
-        font-style:normal;
-        font-weight:800;
-        line-height:1.17;
-        letter-spacing:0.03em;
-        text-transform:uppercase;
+color: var(--navyblue, #2E2F42);
+font-family:Raleway;
+font-size:18px;
+font-style:normal;
+font-weight:800;
+line-height:1.17;
+letter-spacing:0.03em;
+text-transform:uppercase;
 }
 
 .header-nav-menu {}
