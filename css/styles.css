@@ -25,26 +25,39 @@ list-style-type: none;
 
 /**----------------------------------HEADER-------------------------------*/
 
-.header-logo{
-    color: var(--iris);
-    font-size: 18px;
-        font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-
+.header-address-link[
+        border-bottom: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--white, #FFF);
+]
+.header-navigation {
 }
 
-.header-logo-accent{
-    color: var(--navyblue);
+.header-logo {
+    color: var(--iris, #4D5AE5);
+        font-family: Raleway;
         font-size: 18px;
-        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+}
+
+.header-logo-accent {
+    color: var(--navyblue, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
+
+.header-nav-menu {}
+
+.header-nav-item {}
 
 .header-nav-link{
     color: var(--navyblue);
