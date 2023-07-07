@@ -1,8 +1,9 @@
 body{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: #434455;
-    background-color: var(--white); 
+font-family:"Roboto",
+    sans-serif;
+font-style: normal;
+color: #434455;
+background-color: var(--white); 
 }
 
 :root{
@@ -33,7 +34,8 @@ list-style-type:none;
 }
 
 .header-logo {
-font-family:Raleway;
+font-family:"Raleway",
+    sans-serif;
 font-size:18px;
 font-style:normal;
 font-weight:800;
@@ -46,7 +48,8 @@ text-transform:uppercase;
 
 .header-logo-accent {
 color: var(--navyblue, #2E2F42);
-font-family:Raleway;
+font-family:"Raleway",
+    sans-serif;
 font-size:18px;
 font-style:normal;
 font-weight:800;
