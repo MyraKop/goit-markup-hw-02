@@ -244,16 +244,16 @@ letter-spacing:0.02em;
 }
 
 
-/**-------------------------------------BUTTON----------------------------------*/
+/**-------------------------------------PORTFOLIO----------------------------------*/
+.button-list {
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 24px;
+}
 
-.section-button {}
+.button-item {}
 
-.section-button-list{ }
-
-.section-button-item {}
-
-
-.section-button-text {
+.button-text {
     color: var(--iris);
         text-align: center;
         font-family: Roboto;
@@ -268,7 +268,7 @@ letter-spacing:0.02em;
             cursor: pointer;
 }
 
-.section-button-text:hover, .section-button-text:focus{
+.button-text:hover, .section-button-text:focus{
    color: var(--white);
 text-align: center;
 font-family: Roboto;
@@ -282,9 +282,9 @@ border-radius: 4px;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-/**-------------------------------------PORTFOLIO----------------------------------*/
-
-.portfolio {}
+.portfolio {
+    background: #FFF;
+}
 
 .portfolio-list {}
 
@@ -295,8 +295,6 @@ border-radius: 4px;
 
 .portfolio-img {
     background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
-    
-        img Image · 360 x 300 1x
 }
 
 .portfolio-subtitle {
