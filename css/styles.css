@@ -1,17 +1,17 @@
-body{
-font-family: "Roboto", sans-serif;
-color: #434455;
-background-color: var(--white);
-}
-
 :root{
-    --navyblue: #2E2F42;
-    --iris: #4D5AE5;
+--navyblue: #2E2F42;
+--iris: #4D5AE5;
 --slate: #434455;
 --white: #FFF;
 --cloud:#F4F4FD;
 ----cornflower: #E7E9FC;
 --ocean: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--white);
 }
 
 .link{
